@@ -13,7 +13,7 @@ function plusMinus(arr) {
     let r1 = (1/base) * a;
     let r2 = (1/base) * b;
     let r3 = (1/base) * c;
-    console.log(`${r1.toFixed(6)}\n${r2.toFixed(6)}\n${r3.toFixed(6)}`)
+    console.log(`${r2.toFixed(6)}\n${r3.toFixed(6)}\n${r1.toFixed(6)}`)
 }
 
 plusMinus(arr)
